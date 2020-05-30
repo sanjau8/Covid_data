@@ -100,4 +100,4 @@ app.post("/get_report",function(req,resp){
     resp.end("POST to get current status in India")
 })
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
