@@ -8,6 +8,14 @@ var app = express()
 app.get('/',function(req,resp){
     resp.end('Hey Success' )
 })
+
+
+app.get('/car',function(req,resp){
+    temp={'action':'L}
+    res.end(JSON.stringify(temp))
+})
+
+
 app.get('/get_report',function(req,res){
 
 const url='https://www.mygov.in/covid-19/'
